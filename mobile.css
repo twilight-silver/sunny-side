@@ -1,0 +1,179 @@
+@media only screen and (max-width: 412px){
+    .body{
+        overflow:hidden;
+    }
+    .hambugger{
+        display: block;
+        z-index: 100;
+        cursor: pointer;
+    }
+
+    .close-icon{
+        display: none;
+        z-index: 100;
+        cursor: pointer;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    div.welcome{
+        background-image: url("./images/mobile/image-header.jpg");
+        height: 60vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+    }
+
+    div.header-text{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .arrow{
+        scale: 1;
+        padding-top: 75%;
+    }
+    .section1{
+        flex-direction: column-reverse;
+    }
+    .section2{
+        flex-direction: column-reverse;
+    }
+    
+    .image1, .image2{
+        width: 100vw;
+        height:50vh
+    }
+
+    .text{
+        width: 100%;
+        padding: 1rem;
+        height: 50vh;
+    }
+    .content{
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        margin: auto;
+        width: 100%;
+    }
+    .content >  h2{
+        font-size: 48px;
+        text-align: center;
+        padding: 0;
+        font-weight: bolder;
+    }
+    .content > p{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 1.5rem;
+        padding: 1rem;
+    }
+
+    .content > span{
+        margin: 0;
+        padding-top: 1rem;
+    }
+
+    .section2 > .text > .content > span{
+        margin: 0;
+        padding-top: 1rem;
+    }
+
+    .cherry-content{
+       margin: 0;
+       flex-direction: column;
+       height: fit-content;
+    }
+
+    .cherry{
+        background-image: url("./images/mobile/image-graphic-design.jpg");
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .orange{
+        background-image: url("./images/mobile/image-photography.jpg");
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .photo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .photo >h3{
+        font-size: 2.5rem;
+        font-weight: 900;
+        padding: 1rem;
+    }
+
+    .photo >p{
+        padding: .5rem;
+        font-family: "Barlow";
+        margin-bottom: 1rem;
+    }
+
+    .client-testemonials{
+        height: 100%;
+    }
+
+    .client-testemonials > h3{
+        font-size: x-small;
+        text-align: center;
+        /* margin: 10% auto; */
+    }
+
+    .people{
+       flex-direction: column;
+       flex: 0;
+       column-gap: 0.5rem;
+    }
+
+    .cards{
+        width: 80vw;
+    }
+
+    .cards > p{
+        font-size: .9rem;
+    }
+
+    .gallery{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .pictures{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .one{
+        background-image: url("./images/mobile/image-gallery-milkbottles.jpg");
+        width: 50vw;
+        height: 50%;
+    }
+
+    .two{
+        background-image: url("./images/mobile/image-gallery-orange.jpg");
+        width: 50vw;
+        height: 50%;
+    }
+
+    .three{
+        background-image: url("./images/mobile/image-gallery-cone.jpg");
+        width: 50vw;
+        height: 50%;
+    }
+
+    .four{
+        background-image: url("./images/mobile/image-gallery-sugar-cubes.jpg");
+        width: 50vw;
+        height: 50%;
+    }
+}
